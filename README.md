@@ -19,5 +19,9 @@ Frontend	Java Swing (GUI)
 Backend	Java JDBC
 Database	MySQL
 
+**Screenshot**
+<img width="723" height="604" alt="demo" src="https://github.com/user-attachments/assets/7983dfb9-4d9e-4806-a06d-13a75bfdf9db" />
+
+
 **Acknowledgments**
 I would like to thank Kamal Sir and JavaSpark Solutions for their guidance and support during the development of this project.
