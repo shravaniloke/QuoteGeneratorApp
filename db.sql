@@ -1,0 +1,121 @@
+CREATE DATABASE if not exists quote_generator;
+
+USE quote_generator;
+
+CREATE TABLE quotes (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    category VARCHAR(50),
+    quote TEXT
+);
+
+-- Coding Quotes 
+INSERT INTO quotes (category, quote) VALUES
+('Coding', 'Talk is cheap. Show me the code.'),
+('Coding', 'Code never lies, comments sometimes do.'),
+('Coding', 'Programs must be written for people to read.'),
+('Coding', 'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.'),
+('Coding', 'First, solve the problem. Then, write the code.'),
+('Coding', 'Java is to JavaScript what car is to Carpet.'),
+('Coding', 'In order to be irreplaceable, one must always be different.'),
+('Coding', 'Simplicity is the soul of efficiency.'),
+('Coding', 'Code is like humor. When you have to explain it, it’s bad.'),
+('Coding', 'Fix the cause, not the symptom.'),
+('Coding', 'Make it work, make it right, make it fast.'),
+('Coding', 'Coding is the language of the future.'),
+('Coding', 'Programming is thinking, not typing.'),
+('Coding', 'Code as if the next person to maintain your code is a violent psychopath who knows where you live.'),
+('Coding', 'The best error message is the one that never shows up.'),
+('Coding', 'A good programmer looks both ways before crossing a one-way street.'),
+('Coding', 'Good code is its own best documentation.'),
+('Coding', 'Computers are fast; programmers keep it slow.'),
+('Coding', 'There is no Ctrl+Z in production.'),
+('Coding', 'Algorithm: Word used by programmers when they don’t want to explain what they did.'),
+('Coding', 'Debugging is like being the detective in a crime movie where you are also the murderer.'),
+('Coding', 'Coding is not just code, it is a craft.'),
+('Coding', 'Programming today is a race between software engineers and the universe.'),
+('Coding', 'It works on my machine.'),
+('Coding', 'Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.');
+
+-- Happy Quotes
+INSERT INTO quotes (category, quote) VALUES
+('Happy', 'Happiness is not something ready made. It comes from your own actions.'),
+('Happy', 'For every minute you are angry you lose sixty seconds of happiness.'),
+('Happy', 'The purpose of our lives is to be happy.'),
+('Happy', 'Happiness is a direction, not a place.'),
+('Happy', 'Smile, and the world smiles with you.'),
+('Happy', 'Be so happy that when others look at you, they become happy too.'),
+('Happy', 'Happiness depends upon ourselves.'),
+('Happy', 'Do more of what makes you happy.'),
+('Happy', 'A smile is happiness you’ll find right under your nose.'),
+('Happy', 'Happiness is not by chance, but by choice.'),
+('Happy', 'If you want to be happy, be.'),
+('Happy', 'Happiness is a warm puppy.'),
+('Happy', 'Take time to do what makes your soul happy.'),
+('Happy', 'The most important thing is to enjoy your life—to be happy—it’s all that matters.'),
+('Happy', 'Happiness is the best makeup.'),
+('Happy', 'Start each day with a grateful heart.'),
+('Happy', 'Happiness is homemade.'),
+('Happy', 'Be happy with what you have. Be excited about what you want.'),
+('Happy', 'Happiness looks good on you.'),
+('Happy', 'Happiness is not having what you want. It is appreciating what you have.'),
+('Happy', 'Being happy never goes out of style.'),
+('Happy', 'Happiness blooms from within.'),
+('Happy', 'Enjoy the little things.'),
+('Happy', 'Think happy. Be happy.'),
+('Happy', 'There is no way to happiness – happiness is the way.');
+
+-- Confidence Quotes
+INSERT INTO quotes (category, quote) VALUES
+('Confidence', 'Believe you can and you’re halfway there.'),
+('Confidence', 'Confidence comes not from always being right but from not fearing to be wrong.'),
+('Confidence', 'With confidence, you have won before you have started.'),
+('Confidence', 'Don’t wait until everything is just right.'),
+('Confidence', 'The most beautiful thing you can wear is confidence.'),
+('Confidence', 'Confidence is preparation. Everything else is beyond your control.'),
+('Confidence', 'Trust yourself. You know more than you think you do.'),
+('Confidence', 'Be yourself—everyone else is already taken.'),
+('Confidence', 'Confidence is silent. Insecurities are loud.'),
+('Confidence', 'Low self-esteem is like driving through life with your handbrake on.'),
+('Confidence', 'Talk to yourself like someone you love.'),
+('Confidence', 'Optimism is the faith that leads to achievement.'),
+('Confidence', 'You are braver than you believe, and stronger than you seem.'),
+('Confidence', 'Nothing can dim the light that shines from within.'),
+('Confidence', 'Confidence is not “they will like me.” Confidence is “I’ll be fine if they don’t.”'),
+('Confidence', 'Your value doesn’t decrease based on someone’s inability to see your worth.'),
+('Confidence', 'Don’t be satisfied with stories, how things have gone with others.'),
+('Confidence', 'Confidence comes from discipline and training.'),
+('Confidence', 'Stop doubting yourself. Work hard and make it happen.'),
+('Confidence', 'Confidence is the key to unlocking your potential.'),
+('Confidence', 'You were born to be real, not perfect.'),
+('Confidence', 'Confidence is when you believe in yourself, and your abilities.'),
+('Confidence', 'Believe in your infinite potential.'),
+('Confidence', 'Self-confidence is the best outfit.'),
+('Confidence', 'Act as if it were impossible to fail.');
+
+-- Work Quotes
+INSERT INTO quotes (category, quote) VALUES
+('Work', 'Choose a job you love, and you will never have to work a day in your life.'),
+('Work', 'Success is the sum of small efforts, repeated day in and day out.'),
+('Work', 'Work hard in silence, let success make the noise.'),
+('Work', 'The only way to do great work is to love what you do.'),
+('Work', 'Opportunities don’t happen. You create them.'),
+('Work', 'Don’t watch the clock; do what it does. Keep going.'),
+('Work', 'The future depends on what you do today.'),
+('Work', 'Work gives you meaning and purpose.'),
+('Work', 'Success usually comes to those who are too busy to be looking for it.'),
+('Work', 'It’s not about having time. It’s about making time.'),
+('Work', 'The harder you work, the luckier you get.'),
+('Work', 'Dreams don’t work unless you do.'),
+('Work', 'Satisfaction lies in the effort, not in the attainment.'),
+('Work', 'Don’t be busy, be productive.'),
+('Work', 'Push yourself because no one else is going to do it for you.'),
+('Work', 'Without hard work, nothing grows but weeds.'),
+('Work', 'Do something today that your future self will thank you for.'),
+('Work', 'Work until your idols become your rivals.'),
+('Work', 'Strive for progress, not perfection.'),
+('Work', 'Work is the key to success, and hard work can help you accomplish anything.'),
+('Work', 'Discipline is the bridge between goals and accomplishment.'),
+('Work', 'Work hard. Stay humble.'),
+('Work', 'Success is no accident. It is hard work, perseverance, and love of what you are doing.'),
+('Work', 'Work smart, not just hard.'),
+('Work', 'Great things come from hard work and perseverance.');
